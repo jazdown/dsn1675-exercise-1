@@ -8,6 +8,7 @@ html {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+    background-color: #ccc;
 
   font: normal 100%/1.5 sans-serif;
   -moz-text-size-adjust: 100%;
@@ -18,6 +19,11 @@ html {
 
 *, *:before, *:after {
   box-sizing: inherit;
+}
+
+.dinooo {
+    background-color: #fff;
+    overflow: hidden;
 }
 
 body {
@@ -50,5 +56,16 @@ img {
     margin: 0;
     padding: 2rem 1rem;
     font-size: 1.25rem;
+}
+
+.boxybox {
+    float: left;
+    padding: 1rem;
+    width: 33.333%;
+    border-right: 1px solid #ccc;
+}
+    
+.info:last-child {
+    border: 0;
 }
 
